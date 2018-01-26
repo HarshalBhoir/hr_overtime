@@ -24,12 +24,13 @@
 	'author' : 'Asmaa Aly',
 	'category' : 'Human Resources',
 	'description' : """
-		The purpose of this module is to manage Overtime for all employee or for each department through odoo 8 HR Overtime Module as HR new feature. 
+		The purpose of this module is to manage Overtime for all employee or for each department through odoo 9 HR Overtime Module as HR new feature. 
 		Integrated with Payroll Management 
 		Integrated with contract
 		Integrated with attendance 
 
 		Created By Asmaa Aly
+		Ported To v9.0 by Ayman Nabil
 	""",
 
 	'depends' : ['hr', 'hr_contract','hr_payroll'],
