@@ -53,11 +53,7 @@
 			<field name="view_mode">tree,form</field>
 		</record>
 		
-		<menuitem name="Overtime Structures"
-			parent="hr_contract.next_id_56"
-			id="menu_hr_overtime_structure"
-			action="action_hr_overtime_structure"
-			sequence="7"/>
+		<menuitem action="action_hr_overtime_structure" id="menu_hr_overtime_structure" parent="hr.menu_human_resources_configuration" sequence="7"/>
 			
 		<!--
 			Contract View
